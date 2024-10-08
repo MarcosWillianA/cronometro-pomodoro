@@ -57,13 +57,13 @@ section h2 {
     border: 1px solid orangered;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 10px 0;
 }
 
 .botao {
     display: block;
-    width: 120px;
+    width: 110px;
     height: 40px;
     padding: 5px;
     font-family: "Poppins", sans-serif;
