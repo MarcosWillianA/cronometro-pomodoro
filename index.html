@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Cronômetro Pomodoro</title>
+</head>
+<body>
+    <header>
+        <h1>Cronômetro Pomodoro</h1>
+        <span id="sobre-pomodoro">O que é Pomodoro?</span>
+    </header>
+    <main>
+        <section>
+            <h2>Ajuste aqui o tempo:</h2>
+            <div id="container">
+                <div id="temporizadores">
+                    <button class="botao" id="tempo25">Estudo rápido</button>
+                    <button class="botao" id="tempo50">Estudo longo</button>
+                    <button class="botao" id="descanso05">Descanso</button>
+                    <button class="botao" id="descanso15">Intervalo</button>
+                </div>
+                <div id="area-cronometro">
+                    <span id="cronometro">00:00</span>
+                </div>
+                <div id="inicio-fim">
+                    <button class="botao" id="iniciar">Iniciar</button>
+                    <button class="botao" id="reiniciar">Reiniciar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>App feito por Marcos Willian</p>
+    </footer>
+    <script src="script/app.js"></script>
+</body>
+</html>
