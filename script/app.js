@@ -47,7 +47,7 @@ function zerarCronometro() {
     clearInterval(tempo);
     tempoRestante = 0;
     atualizarCronometro();
-    marcandoTempo(false);
+    marcandoTempo = false;
 }
 
 atualizarCronometro();
